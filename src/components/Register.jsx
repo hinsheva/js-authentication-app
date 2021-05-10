@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Register = ({containerRef}) => {
+const Register = () => {
     return(
-        <div className="form" ref={containerRef}>
+        <div className="form">
             <div className="form input">
                 <label htmlFor="username">Username</label>
                 <input type="text" name="username" placeholder="username"></input>
